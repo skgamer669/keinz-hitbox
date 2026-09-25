@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "keinz-hitbox",
+  "version": "${version}",
+  "name": "Keinz AS Enemy Hitbox",
+  "description": "Client-side visual overlay that colors known clanmates vs. everyone else, on top of unmodified vanilla hitboxes. No combat automation.",
+  "authors": ["Keinz"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.keinz.hitbox.KeinzHitboxClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
